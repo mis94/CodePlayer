@@ -56,7 +56,6 @@ body{
 	clear: both;
 }
 
-
 .codeContainer{
 	height: 100%;
 	width: 50%;
@@ -67,13 +66,12 @@ body{
 .codeContainer textarea{
 	height: 100%;
 	width: 100%;
-	border: none; /* set all borders to none but we then set the right border only */
+	border: none;
 	border-right: 1px solid grey ;
 	font-family: monotype;
 	font-size: 90%;
 	padding: 5px;
 }
-
 
 .codeLabel{
 	position: absolute;
@@ -102,6 +100,3 @@ iframe{
 	filter: alpha(opacity=100);
 	box-shadow: 0 0 50px #ccc;
 }
-
-
-
